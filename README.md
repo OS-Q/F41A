@@ -1,4 +1,4 @@
-﻿# M3:[集成控制](https://github.com/OS-Q/M3) 
+﻿# M3：[集成控制](https://github.com/OS-Q/M3) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,13 +8,17 @@
 
 ## [节点描述](https://github.com/OS-Q/M3/wiki) 
 
-集成控制节点，集成相关资源，以满足应用场景，完成协同控制
+集成控制节点，集成相关资源以满足特殊应用场景
 
 ### [共用资源](https://github.com/OS-Q/M3/wiki) 
 
-#### [协同通信接口](M4/)
+#### [协同通信](M4/)
 
 M3节点和M4节点协同规范
+
+#### [协同计算](M7/)
+
+M3节点和M7节点协同规范
 
 ---
 
