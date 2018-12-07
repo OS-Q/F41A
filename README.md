@@ -1,59 +1,60 @@
-﻿# M3:[无线控制](https://github.com/OS-Q/M3) 
+﻿# M3:[集成控制](https://github.com/OS-Q/M3) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-以无线通信接入通信网关
-
-#### 归属系统体系：[Q1](https://github.com/OS-Q/Q1)
+#### 归属控制体系：[Q1](https://github.com/OS-Q/Q1)
 
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 ## [节点描述](https://github.com/OS-Q/M3/wiki) 
 
-无线控制节点，以无线连接实现通信，完成数据交互和控制行为
+集成控制节点，集成相关资源，以满足应用场景，完成协同控制
 
-### [共用资源](https://github.com/OS-Q/M3/wiki/src) 
+### [共用资源](https://github.com/OS-Q/M3/wiki) 
 
-#### 数据协议
+#### [协同通信接口](M4/)
 
-- TLV 数据组帧协议
-
-- CRC 数据校验协议
+M3节点和M4节点协同规范
 
 ---
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
 
-## [包含平台](https://github.com/OS-Q/M3/wiki/index) 
+## [包含平台](https://github.com/OS-Q/M3/wiki) 
 
-#### W10:[低成本平台](https://github.com/OS-Q/W10)
+#### W10：[低功耗平台](https://github.com/OS-Q/W10)
 
-基于低成本方案提供丰富的协同无线控制方案
+基于电池供电的低功耗运行
 
-#### W11:[性价比平台](https://github.com/OS-Q/W11)
+#### W11：[性价比平台](https://github.com/OS-Q/W11)
 
-基于广泛应用的平台提供快速实现的方案
+基于高性价比使用广泛平台
 
-#### W12:[高性能平台](https://github.com/OS-Q/W12)
+#### W12：[高同步平台](https://github.com/OS-Q/W12)
 
-基于各种高性能处理平台完成对应控制
+要求控制时延和设备间同步
 
-#### W13:[专用化平台](https://github.com/OS-Q/W13)
+#### W13：[专用化平台](https://github.com/OS-Q/W13)
 
-基于各种专用设备完成专用领域的控制
+用于专用领域设备驱动控制
 
+## [同级节点](https://github.com/OS-Q/Q1/wiki)
 
-## [同级节点](https://github.com/OS-Q/M3/wiki/index)
+#### M1：[输入控制](https://github.com/OS-Q/M1)
 
-#### M1:[离线控制](https://github.com/OS-Q/M1)
+控制外接信号输入，完成数据采集过程
 
-#### M2:[协同控制](https://github.com/OS-Q/M2)
+#### M2：[输出控制](https://github.com/OS-Q/M2)
 
-#### M3:[无线控制](https://github.com/OS-Q/M3)
+控制对外信号输出，完成数据消费过程
+
+#### -> M3：[集成控制](https://github.com/OS-Q/M3)
+
+集成相关资源，组合完成预定控制逻辑
+
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
-###  qitas@qitas.cn
-###  2018-11-28
-
+####  qitas@qitas.cn
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
+####  2018-12-7
