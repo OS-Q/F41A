@@ -1,4 +1,4 @@
-﻿# M3：[集成控制](https://github.com/OS-Q/M3) 
+﻿# M3：[闭环控制](https://github.com/OS-Q/M3) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -8,7 +8,7 @@
 
 ## [节点描述](https://github.com/OS-Q/M3/wiki) 
 
-集成控制节点，集成相关资源以满足特殊应用场景
+闭环控制节点，集成相关资源以满足特殊应用场景
 
 ### [共用资源](https://github.com/OS-Q/M3/wiki) 
 
@@ -16,49 +16,48 @@
 
 M3节点和M4节点协同规范
 
-#### [协同计算](M7/)
-
-M3节点和M7节点协同规范
 
 ---
 
-- 边缘设备统一命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+- 边缘设备命名规则：体系 Q:[1,4] -> 节点 M:[1,12] -> 平台 W:[1,52] -> 设备 D:[1,365]
+
+- naming patterns：system Q[1,4] -> node M[1,12] -> platform W[1,52] -> device D[1,365]
 
 ## [包含平台](https://github.com/OS-Q/M3/wiki) 
 
-#### W10：[低功耗平台](https://github.com/OS-Q/W10)
+#### W10：[超低功耗](https://github.com/OS-Q/W10)
 
 基于电池供电的低功耗运行
 
-#### W11：[性价比平台](https://github.com/OS-Q/W11)
+#### W11：[超高精度](https://github.com/OS-Q/W11)
 
-基于高性价比使用广泛平台
+基于高精度平台的闭环控制系统
 
-#### W12：[高同步平台](https://github.com/OS-Q/W12)
+#### W12：[超高速度](https://github.com/OS-Q/W12)
 
 要求控制时延和设备间同步
 
-#### W13：[专用化平台](https://github.com/OS-Q/W13)
+#### W13：[专用控制](https://github.com/OS-Q/W13)
 
 用于专用领域设备驱动控制
 
 ## [同级节点](https://github.com/OS-Q/Q1/wiki)
 
-#### M1：[输入控制](https://github.com/OS-Q/M1)
+#### M1：[信号采集](https://github.com/OS-Q/M1)
 
 控制外接信号输入，完成数据采集过程
 
-#### M2：[输出控制](https://github.com/OS-Q/M2)
+#### M2：[数据输出](https://github.com/OS-Q/M2)
 
 控制对外信号输出，完成数据消费过程
 
-#### -> M3：[集成控制](https://github.com/OS-Q/M3)
+#### -> M3：[闭环控制](https://github.com/OS-Q/M3)
 
-集成相关资源，组合完成预定控制逻辑
+集成相关资源，组合完成预定闭环控制
 
 
 ---
 
-####  qitas@qitas.cn
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-####  2018-12-7
+####  © qitas@qitas.cn
+###  [OS-Q redefined Operation System](http://www.OS-Q.com)
+####  @ 2018-12-31
