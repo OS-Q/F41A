@@ -10,11 +10,7 @@
 
 闭环控制节点，集成相关资源以满足特殊应用场景
 
-### [共用资源](https://github.com/OS-Q/M3/wiki) 
-
-#### [协同通信](M4/)
-
-M3节点和M4节点协同规范
+### [共用资源](OS-Q/)
 
 
 ---
@@ -25,21 +21,21 @@ M3节点和M4节点协同规范
 
 ## [包含平台](https://github.com/OS-Q/M3/wiki) 
 
-#### W10：[超低功耗](https://github.com/OS-Q/W10)
+#### W10：[逻辑驱动](https://github.com/OS-Q/W10)
 
-基于电池供电的低功耗运行
+基于固定逻辑的闭环控制管理
 
-#### W11：[超高精度](https://github.com/OS-Q/W11)
+#### W11：[数据驱动](https://github.com/OS-Q/W11)
 
-基于高精度平台的闭环控制系统
+基于各项数据驱动的闭环控制
 
-#### W12：[超高速度](https://github.com/OS-Q/W12)
+#### W12：[任务驱动](https://github.com/OS-Q/W12)
 
-要求控制时延和设备间同步
+基于任务角色定义的闭环控制
 
 #### W13：[专用控制](https://github.com/OS-Q/W13)
 
-用于专用领域设备驱动控制
+用于专用领域的闭环驱动控制
 
 ## [同级节点](https://github.com/OS-Q/Q1/wiki)
 
@@ -51,7 +47,7 @@ M3节点和M4节点协同规范
 
 控制对外信号输出，完成数据消费过程
 
-#### -> M3：[闭环控制](https://github.com/OS-Q/M3)
+#### [M3：闭环控制](https://github.com/OS-Q/M3)
 
 集成相关资源，组合完成预定闭环控制
 
@@ -60,4 +56,4 @@ M3节点和M4节点协同规范
 
 ####  © qitas@qitas.cn
 ###  [OS-Q redefined Operation System](http://www.OS-Q.com)
-####  @ 2018-12-31
+####   @  2019-1-7
