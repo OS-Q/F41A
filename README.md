@@ -14,14 +14,14 @@
 
 ### [节点平台](https://github.com/OS-Q/M3) 
 
-- W1：[模拟信号](https://github.com/OS-Q/W1)
-- W2：[环境监控](https://github.com/OS-Q/W2)
-- W3：[状态监控](https://github.com/OS-Q/W3)
-- W4：[特殊信号](https://github.com/OS-Q/W4)
+- W10：[环境控制](https://github.com/OS-Q/W10)
+- W11：[平衡控制](https://github.com/OS-Q/W11)
+- W12：[位置控制](https://github.com/OS-Q/W12)
+- W13：[补偿控制](https://github.com/OS-Q/W13)
 
 ### [同级节点](https://github.com/OS-Q/Q1)
 
-- M3：[数据生产](https://github.com/OS-Q/M1)
+- M1：[数据生产](https://github.com/OS-Q/M1)
 - M2：[数据消费](https://github.com/OS-Q/M2)
 - M3：[数据驱动](https://github.com/OS-Q/M3)
 
