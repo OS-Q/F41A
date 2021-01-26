@@ -14,4 +14,4 @@
 * 使用 Autoconf 风格查找头文件，函数库，函数和类型定义。
 * 良好的夸平台性。SCons 可以运行在 Linux, AIX, BSD, HP/UX, IRIX, Solaris, Windows, Mac OS X 和 OS/2 上。
 
-### [OS-Q = [Open Source & Operating System]](http://www.OS-Q.com)
+### [Q = (OpenSource & OperatingSystem) ](http://www.OS-Q.com)
